@@ -8,12 +8,15 @@
      
   }
 
-  img {
+  .logo img {
     width: 100px;
     height: 110px;
     color: #eb1d39;
     font-size: 24px;
   }
+
+  
+
 
  .menu {
         display: flex; /* 표시: 플렉스(블럭 ->인라인) */
@@ -28,10 +31,64 @@
  }
 
 
+ .promotion {
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
 
+.movie h1 {
+       height: 30px;
+       text-align: center;
+       font-size: 22px;
+       text-transform: uppercase; /*텍스트-변형: 대문자 */
+       font-weight: bold; /*글꼴 - 두께: (더)두껍게*/
+}
+.movie p { 
+       height: 50px;
+       text-align: center;
+       color: #555555;
 
+}
 
+.cover_img { 
+       height: 350px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+}
 
+.sns {
+      
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+}
+
+.cs h2, .cs p {
+       text-align: center;
+}
+.cs h2{
+       
+       font-size: 15px;
+       color: #005891;
+}
+.cs { margin: 30px;
+}
+
+.cs p{
+       font-size: 30px;
+       color: #005891;
+       font-weight: bold;
+}
+.finish p{
+
+       text-align: center;
+}
+
+     
 
  /*
  1.선택자 문법
@@ -45,3 +102,4 @@
  - 아이디 선택자 : #box                 [#]
  - 그룹 선택자 : p, .item, #box         [,]
  */
+
